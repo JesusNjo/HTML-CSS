@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Manos a la obra</title>
+    <link rel="stylesheet" href="style.css" />
+    <header>
+      <h1 class="titulo">
+        Francisco Naranjo <span class="span__titulo">Developer</span>
+      </h1>
+      <div class="img_perfil">
+        <img src="./Tom Cruise.jpg" alt="Tom Cruise">
+      </div>
+    </header>
+  </head>
+  <body>
+    <div>
+      <p>Paises del mundo</p>
+      <ul class="lista">
+        <li>Argentina</li>
+        <li>Peru</li>
+        <li>Colombia</li>
+        <li>Venezuela</li>
+      </ul>
+    </div>
+
+    <div>
+      <ol class="lista_2" start="1">
+        <li>Argentina</li>
+        <li>Peru</li>
+        <li>Colombia</li>
+        <li>Venezuela</li>
+      </ol>
+    </div>
+
+    <div>
+      <p>Ciudades del mundo</p>
+      <ul>
+        <li>Argentina</li>
+        <ol>
+          <li>Buenos Aires</li>
+          <li>Bariloche</li>
+        </ol>
+        <li>Uruguay</li>
+        <ol>
+          <li>Montevideo</li>
+          <li>Punta del Este</li>
+        </ol>
+      </ul>
+    </div>
+
+
+    <h2>Actitudes personales</h2>
+
+
+    <ul>
+        
+        <li>aserividad</li>
+        <li>trabajo en equipo</li>
+        <li>escucha activa</li>
+    </ul>
+
+    <h2>Tecnologias</h2>
+
+    <ul>
+        <li>java</li>
+        <li>mysql</li>
+        <li>spring boot</li>
+    </ul>
+
+    
+    <a alt="linkedin" target="_blank" href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit">LinkeIn</a>
+    <a href="https://www.linkedin.com/feed/?trk=guest_homepage-basic_google-one-tap-submit"><img src="./R.png" alt=""></a>
+
+
+    <table>
+        <tr>
+            <thead>
+
+                <th>Nombre</th>
+                <th>Apellido</th>
+                <th>Edad</th>
+            </thead>
+        </tr>
+        <tbody>
+
+            <tr>
+                <td>Alejandra</td>
+                <td>Orjuela</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>Juan</td>
+                <td>Pacheco</td>
+                <td>24</td>
+            </tr>
+            
+            <tr>
+                <td>Francisco</td>
+                <td>Naranjo</td>
+                <td>29</td>
+            </tr>
+        </tbody>
+    </table>
+    <br>
+
+    <form action="" autocomplete="off" method="post">
+        <div>
+        <label for="nombre">Nombre</label>
+
+        <input autofocus ="text" id="nombre" placeholder="Ingrese su nombre" maxlength="10">
+        </div>
+        <label for="edad">Edad</label>
+
+        <input value= "edad" type="number" id="edad" placeholder="Ingrese su edad" step="5" min="0" max="500">
+        </div>
+
+        <div>
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+        <div>
+            <label for="pass">Contraseña</label>
+            <input type="password" name="pass" id="pass">
+        </div>
+        <!--<div>
+            <input pattern="[0-9]{5}" name="codigoPostal" placeholder="Codigo de 5 digitos" id="codigoPostal" required> <br><br>
+            
+            <input type="range" name="Edad" id="Edad" min="5" max="100" step="5">
+        </div>-->
+
+        <textarea name="" id="" cols="30" rows="10" placeholder="Ingrese un comentario"></textarea>
+        <p>Indique el que estacion estamos</p>
+        <select multiple name="estacion"> 
+            <option>Primavera</option> 
+            <option>Verano</option> 
+            <option>Otoño</option> 
+            <option>Invierno</option> 
+            </select>
+            <br>
+<input type="radio" name="estacion" value="1">Primavera
+<br>
+<input type="radio" name="estacion" value="2">Verano
+<br>
+<input type="radio" name="estacion" value="3">Otoño
+<br>
+<input type="radio" name="estacion" value="4">Invierno
+
+<br>
+<br>
+<br>
+
+
+
+<input type="checkbox" name="estacion" value="1">Primavera
+<br>
+<input type="checkbox" name="estacion" value="2">Verano
+<br>
+<input type="checkbox" name="estacion" value="3">Otoño
+<br>
+<input type="checkbox" name="estacion" value="4">Invierno
+
+
+
+        <button type="submit" value="Enviar">Enviar</button>
+    </form>
+  </body>
+</html>
