@@ -1,23 +1,28 @@
 
+*{
+    background-color: #ccc;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 html{
     font-size: 62.5%;
 }
 body{
     font-size: 16px;
+
 }
 
 .titulo{
     text-align: center;
 
 }
+h1{
+    font-size: 2.8rem;
+}
 .span__titulo{
     font-size: 16px;
     color: grey;
 }
 
-.lista2{
-    list-style-type: upper-roman;
-}
 
 img{
     width: 150px;
