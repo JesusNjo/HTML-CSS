@@ -35,10 +35,10 @@
                 <path d="M16 16v-3a2 2 0 0 0 -4 0" />
               </svg></a>
              
-            </div>
-        </div>
+            </div> <!--.encabezado__iconos-->
+        </div> <!--.encabezado__caja-->
 
-    </header>
+    </header> <!--.encabezado-->
     
     <div class="nave-bg">
         
@@ -50,26 +50,29 @@
         </nav>
     </div>
 
+    <!-- Inicio del header -->
     <section class="header">
         <div class="header__contenido">
             <h2>Diseño y desarrollo WEB</h2>
-        <p>
-            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-share" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
-                <path d="M12.02 21.485a1.996 1.996 0 0 1 -1.433 -.585l-4.244 -4.243a8 8 0 1 1 13.403 -3.651" />
-                <path d="M16 22l5 -5" />
-                <path d="M21 21.5v-4.5h-4.5" />
-              </svg>
-        </p>
-        <p>Punto Fijo, Edo Falcón</p>
+        
+            <div class="ubicacion">
+                
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-map-pin-share" width="44" height="44" viewBox="0 0 24 24" stroke-width="1.5" stroke="#00abfb" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0" />
+                    <path d="M12.02 21.485a1.996 1.996 0 0 1 -1.433 -.585l-4.244 -4.243a8 8 0 1 1 13.403 -3.651" />
+                    <path d="M16 22l5 -5" />
+                    <path d="M21 21.5v-4.5h-4.5" />
+                  </svg>
+                <p>Punto Fijo, Edo Falcón</p>
+            </div>
         
        
-          <a href="#"><button>Contactar</button></a>
+          <a class="btn" href="#">contactar</a>
         </div>
     </section>
 
-    <main class="contenedor">
+    <main class="contenedor sombra">
         <h2>Mis servicios</h2>
 
         <section>
@@ -127,48 +130,49 @@
                 consequuntur? </p>
         </section>
 
-        <section>
-            <h2>Contacto</h2>
-    
-            <form action="">
-    
-                <fieldset>
-                    <legend>Contactar llenando los campos</legend>
-                    
-                    <div>
-    
-                        <label for="name">Nombre</label>
-                        <input type="text" id="nombre" placeholder="Ingrese su nombre">
-                    </div>
-    
-                    <div>
-    
-                        <label for="phone">Telefono</label>
-                        <input type="tel" id="phone" placeholder="Ingrese su numero de telefono">
-                    </div>
-    
-                        <div>
-    
-                            <label for="email">Correo</label>
-                            <input type="email" name="email" id="email" placeholder="Ingrese su email">
-                        </div>
-    
-                        <div>
-    
-                            <label for="mensaje">Comentario</label>
-                            <textarea name="mensaje" id="mensaje" cols="10" rows="2"></textarea>
-                        </div>
-    
-                        <div>
-    
-                            <input type="submit" value="Enviar" class="btn">
-                        </div>
-                </fieldset>
-    
-            </form>
-        </section>
-    
+        
     </main>
+    <section>
+        <h2>Contacto</h2>
+
+        <form action="">
+
+            <fieldset class="campo">
+                <legend>Contactar llenando los campos</legend>
+                
+                <div>
+
+                    <label for="name">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Ingrese su nombre">
+                </div>
+
+                <div>
+
+                    <label for="phone">Telefono</label>
+                    <input type="tel" id="phone" placeholder="Ingrese su numero de telefono">
+                </div>
+
+                    <div>
+
+                        <label for="email">Correo</label>
+                        <input type="email" name="email" id="email" placeholder="Ingrese su email">
+                    </div>
+
+                    <div>
+
+                        <label for="mensaje">Comentario</label>
+                        <textarea name="mensaje" id="mensaje" cols="10" rows="2"></textarea>
+                    </div>
+                    <br>
+                    <br>
+                    <div>
+
+                        <input type="submit" value="Enviar" class="btn">
+                    </div>
+            </fieldset>
+
+        </form>
+    </section>
 
     
     <footer>

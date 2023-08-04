@@ -1,0 +1,21 @@
+
+*{
+    background-color: #484;
+}
+
+.titulo,.sub{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+}
+
+.para1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+    text-align: left;
+    font-style: italic;
+}
+
+.para2{
+    color: bisque;
+    font-weight: bold;
+}

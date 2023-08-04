@@ -1,21 +1,36 @@
+/* Paleta colores */
 :root{
     --colorTitulos : #00bfd8;
     --colorParrafos : grey;
 }
+/* Globales */
 html{
     font-size: 62.5%;
-    background-color: antiquewhite;
-    font-family: 'Arial Narrow', Arial, sans-serif;
+    
     box-sizing: border-box;
 }
 *,*:before,*:after{
     box-sizing: inherit;
 }
-
 body{
     font-size: 16px;
-   
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to top,#DFFEFF 0%, white 100%);
+
 }
+h1{
+    font-size: 3.8rem;
+}
+h2{
+    font-size: 2.8rem;
+}
+h3{
+    font-size: 1.8rem;
+}
+h1,h2,h3{
+    text-align: center;   
+}
+/* Contenido */
 .encabezado{
    display: flex;
    justify-content: flex-end;
@@ -25,7 +40,7 @@ body{
     flex-direction: column;
     align-items: center;
     width: 100rem;
-    text-align: center;   
+    
 }
 p{
     color: var(--colorParrafos);
@@ -38,20 +53,13 @@ p{
 }
 
 .contenedor{
-    max-width: 120rem;
+    max-width: 100rem;
     margin: 0 auto;
-    text-align: center;
-}
-.nave-bg{
-    
-    background-color: #fff;
 }
 .navegacion_principal{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
-    
 }
 .navegacion_principal a{
     color: black;
@@ -67,15 +75,65 @@ p{
     background-color: var(--colorTitulos);
 }
 .header{
-    text-align: center;
+    
     background-image: url(../img/hero.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-height: 40rem;
+    height: 40rem;
+    max-width: 150rem;
+    position: relative;
+    
 }
 .header__contenido{
-    padding: 5rem;
-   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    
+    
+    color: white;
+    /*background-color: rgba(0,0, 0, .7);*/
+    background-color: rgb(0 0 0 / 70%);
+    
+}
+.ubicacion{
+    display: flex;
+    
+    gap: 2rem;
+    margin: 3rem;
+}
+.btn{
+    text-decoration: none;
+    background-color: black;
+    color : white;
+    padding: 1rem 4rem;
+    font-weight: bold;
+    border-radius: 1.5rem;
+    text-transform: uppercase;
+    text-align: center;
+    width: 90%;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: black;
+
+}
+
+.sombra{
+    background-color: #fff;
+    box-shadow: 0px 5px 15px 0px rgb(112, 112, 112);
+    display: grid;
+    grid-column: 1/4;
+    grid-template-columns: repeat(3,1fr);
+}
+.campo{
+    border: none;
 }
 @media (min-width: 480px) {
     .contenedor{
@@ -88,5 +146,8 @@ p{
     .encabezado__caja{
         flex-direction: row;
         justify-content: space-around;
+    }
+    .btn{
+        width: auto;
     }
 }

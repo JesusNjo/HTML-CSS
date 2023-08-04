@@ -1,0 +1,70 @@
+<!-- . Por último, vamos a crear un formulario para registrar un usuario que se vea de la 
+siguiente manera: -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Registrar un formulario</h1>
+
+    <form action="" >
+
+        <div>
+            <label for="nombre">Nombre de usuario</label><br>
+            <input type="text" name="" id="nombre" placeholder="Ingrese su nombre">
+        </div>
+
+        <div>
+            <label for="pass">Contraseña del usuario</label><br>
+            <input type="password" name="pass" id="pass" placeholder="Ingrese su contraseña" required>
+        </div>
+
+        <div>
+            <label for="num">Edad del usuario</label><br>
+            <input type="number" name="num" id="num" placeholder="Ingrese su edad">
+        </div>
+
+        <div>
+            <label for="fecha">Fecha de nacimiento</label><br>
+            <input type="date" name="fecha" id="fecha">
+        </div>
+
+        <div>
+            <p><strong>Sexo del Usuario</strong></p>
+
+            <input type="radio" name="sexo" id="man">
+            <label for="man">Hombre</label><br>
+
+            <input type="radio" name="sexo" id="women">
+            <label for="women">Mujer</label><br>
+
+            <input type="radio" name="sexo" id="bi">
+            <label for="bi">Prefiero no decir</label>
+        </div>
+
+
+        <div>
+
+            <select name="" id="">
+                <option value="">Argentina</option>
+                <option value="">Chile</option>
+                <option value="">Peru</option>
+                <option value="">Colombia</option>
+                <option value="">Ecuador</option>
+                <option value="">Venezuela</option>
+            </select>
+        </div>
+
+
+        <div>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Borrar">
+        </div>
+
+    </form>
+</body>
+</html>

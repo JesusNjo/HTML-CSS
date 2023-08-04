@@ -1,0 +1,46 @@
+
+*{
+    background-color: #eee;
+}
+
+#titulo{
+    color: cadetblue;
+}
+
+.sus{
+    color: red;
+}
+.destacado{
+    color: chocolate;
+}
+#subtitulo,.blue{
+    color: blue;
+}
+.red{
+    color: red;;
+}
+.especial2{
+    color: blueviolet;
+}
+
+.especial{
+color: #f90;
+}
+
+table,th,td{
+    border: solid 1px black;
+    font-weight: bold;
+    border-collapse: collapse;
+}
+
+.green{
+    color: green;
+}
+
+#adicional{
+    color: goldenrod;
+}
+
+#pink{
+    color: palevioletred;
+}
